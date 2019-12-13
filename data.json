@@ -1,0 +1,145 @@
+[{
+    "filename": "GH012380_19",
+    "road_quality_index": 0.5,
+    "src": "https://www.youtube.com/embed/AnCtfR75WLM",
+    "location": "Serilingampalle",
+    "jerk": 0,
+    "speed_limit": 0,
+    "day_night": 1
+  },
+  {
+    "filename": "GH012380_38",
+    "src": "https://www.youtube.com/embed/a9luNpRMt28",
+    "road_quality_index": 0.5,
+    "location": "Serilingampalle",
+    "jerk": 0,
+    "speed_limit": 0,
+    "day_night": 1
+  },
+  {
+    "filename": "GH012380_47",
+    "src": "https://www.youtube.com/embed/ZMPj3ZH-Bvg",
+    "road_quality_index": 0,
+    "location": "Serilingampalle",
+    "jerk": 0,
+    "speed_limit": 0,
+    "day_night": 1
+  },
+  {
+    "filename": "GH012381_12",
+    "src": "https://www.youtube.com/embed/tYNZrXuZphc",
+    "road_quality_index": 0,
+    "location": "Serilingampalle",
+    "jerk": 0,
+    "speed_limit": 1,
+    "day_night": 1
+  },
+  {
+    "filename": "GH012381_13",
+    "src": "https://www.youtube.com/embed/86f7E1TClZM",
+    "road_quality_index": 0,
+    "location": "Serilingampalle",
+    "jerk": 0,
+    "speed_limit": 1,
+    "day_night": 1
+  },
+  {
+    "filename": "GH012387_62",
+    "src": "https://www.youtube.com/embed/gfGTklwMVbQ",
+    "road_quality_index": 1,
+    "location": "Serilingampalle",
+    "jerk": 0,
+    "speed_limit": 0,
+    "day_night": 1
+  },
+  {
+    "filename": "GH012387_63",
+    "src": "https://www.youtube.com/embed/Iegg6HY50WQ",
+    "road_quality_index": 1,
+    "location": "Serilingampalle",
+    "jerk": 0,
+    "speed_limit": 0,
+    "day_night": 1
+  },
+  {
+    "filename": "GH012516_17",
+    "src": "https://www.youtube.com/embed/fP4hN8dvLw4",
+    "road_quality_index": 1,
+    "location": "Kukatpalli",
+    "jerk": 0,
+    "speed_limit": 0,
+    "day_night": 0
+  },
+  {
+    "filename": "GH012516_22",
+    "src": "https://www.youtube.com/embed/-Zz950q3MjA",
+    "road_quality_index": 1,
+    "location": "Kukatpalli",
+    "jerk": 0,
+    "speed_limit": 0,
+    "day_night": 0
+  },
+  {
+    "filename": "GH012516_41",
+    "src": "https://www.youtube.com/embed/dze1V4BjTB4",
+    "road_quality_index": 1,
+    "location": "Kukatpalli",
+    "jerk": 0,
+    "speed_limit": 0,
+    "day_night": 0
+  },
+  {
+    "filename": "GH012523_1",
+    "src": "https://www.youtube.com/embed/fNTj-8Jq6L4",
+    "road_quality_index": 0,
+    "location": "Serilingampalle",
+    "jerk": 1,
+    "speed_limit": 0,
+    "day_night": 0
+  },
+  {
+    "filename": "GH012523_3",
+    "src": "https://www.youtube.com/embed/Ldyydiuj2fU",
+    "road_quality_index": 0,
+    "location": "Serilingampalle",
+    "jerk": 1,
+    "speed_limit": 0,
+    "day_night": 0
+  },
+  {
+    "filename": "GH012524_13",
+    "src": "https://www.youtube.com/embed/QfiyzqC7wO4",
+    "road_quality_index": 0,
+    "location": "Serilingampalle",
+    "jerk": 1,
+    "speed_limit": 0,
+    "day_night": 0
+  },
+  {
+    "filename": "GH012526_4",
+    "src": "https://www.youtube.com/embed/mCwogn0-cLQ",
+    "road_quality_index": 0,
+    "location": "Serilingampalle",
+    "jerk": 1,
+    "speed_limit": 0,
+    "day_night": 0
+  },
+  {
+    "filename": "GH012384_67",
+    "src": "https://www.youtube.com/embed/aMww7D3q8bs",
+    "road_quality_index": 0,
+    "location": "Serilingampalle",
+    "jerk": 0,
+    "speed_limit": 1,
+    "day_night": 1
+  },
+  {
+    "filename": "GH012384_68",
+    "src": "https://www.youtube.com/embed/pLyAubKVuNg",
+    "road_quality_index": 0,
+    "location": "Serilingampalle",
+    "jerk": 0,
+    "speed_limit": 1,
+    "day_night": 1
+  }
+]
