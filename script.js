@@ -1,22 +1,6 @@
-function loadJSON(callback) {
-    var xobj = new XMLHttpRequest();
-    xobj.overrideMimeType("application/json");
-    xobj.open('GET', 'https://nishanthrachakonda.github.io/Report/data.json', false);
-    xobj.onreadystatechange = function () {
-          if (xobj.readyState == 4 && xobj.status == "200") {
-            callback(xobj.responseText);
-          }
-    };
-    xobj.send(null);
-}
-
-var data;
+var data = Data;
 var features = ["road_quality_index", "jerk", "speed_limit", "day_night"];
 var reference = {"road_quality_index": 2, "jerk": 2, "speed_limit": 2, "day_night": 2};
-
-loadJSON(function(response) {
-    data = JSON.parse(response);
-});
 
 function selection(query){
   for (var index in features){
@@ -53,9 +37,9 @@ function outputJSON(){
   container.innerHTML = htmlElements;
 }
 
-function setFeature(code){
-  console.log(code.name, reference, code.value);
-  reference[features[code.name]] = code.value;
+function setFeature(code, value){
+  console.log(reference[features[code]], features[code], code, value);
+  reference[features[code]] = value;
   outputJSON();
 }
 

@@ -23,7 +23,6 @@
 
   <!-- Custom styles for this template -->
   <!-- <link href="css/agency.min.css" rel="stylesheet"> -->
-  <!-- <link href="css/agency.min.css" rel="stylesheet"> -->
   <link href="css/agency.css" rel="stylesheet">
 
 </head>
@@ -201,72 +200,42 @@
       </div>
       <div class="btn-group">
         <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fa fa-road"></i><span>Road Quality</span>
-        </button>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <label class="container">Yes
-              <input type="radio" class="radio" name= "road_quality_index" value="1" onclick="setFeature(this);">
-              <span class="checkmark"></span>
-          </label>
-          <label class="container">No
-              <input type="radio" class="radio" name= "road_quality_index" value="0" onclick="setFeature(this);">
-              <span class="checkmark"></span>
-          </label>
-          <label class="container">All
-              <input type="radio" class="radio" name= "road_quality_index" value="2" onclick="setFeature(this);" checked="checked">
-              <span class="checkmark"></span>
-          </label>
-        </div>
-        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fa fa-exclamation-triangle"></i><span>Jerk</span>
-        </button>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <label class="container">Yes
-              <input type="radio" class="radio" name= "jerk" value="1" onclick="setFeature(1, 1);">
-              <span class="checkmark"></span>
-          </label>
-          <label class="container">No
-              <input type="radio" class="radio" name= "jerk" value="0" onclick="setFeature(1, 0);">
-              <span class="checkmark"></span>
-          </label>
-          <label class="container">All
-              <input type="radio" class="radio" name= "jerk" value="2" onclick="setFeature(1, 2);" checked="checked">
-              <span class="checkmark"></span>
-          </label>
-        </div>
-        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fa fa-bolt"></i><span>Speed</span>
         </button>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <label class="container">Yes
-              <input type="radio" class="radio" name= "speed_limit" value="1" onclick="setFeature(2, 1);">
-              <span class="checkmark"></span>
-          </label>
-          <label class="container">No
-              <input type="radio" class="radio" name= "speed_limit" value="0" onclick="setFeature(2, 0);">
-              <span class="checkmark"></span>
-          </label>
-          <label class="container">All
-              <input type="radio" class="radio" name= "speed_limit" value="2" onclick="setFeature(2, 2);" checked="checked">
-              <span class="checkmark"></span>
-          </label>
+          <form>
+            <label class="container">Yes
+                <input type="radio" class="radio" name= "speed_limit" value="1" onclick="setFeature(2, 1);">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">No
+                <input type="radio" class="radio" name= "speed_limit" value="0" onclick="setFeature(2, 0);">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">All
+                <input type="radio" class="radio" name= "speed_limit" value="2" onclick="setFeature(2, 2);" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+          </form>
         </div>
         <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fa fa-sun"></i><span>Brightness</span>
         </button>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <label class="container">Yes
-              <input type="radio" class="radio" name= "day_night" value="1" onclick="setFeature(3, 1);">
-              <span class="checkmark"></span>
-          </label>
-          <label class="container">No
-              <input type="radio" class="radio" name= "day_night" value="0" onclick="setFeature(3, 0);">
-              <span class="checkmark"></span>
-          </label>
-          <label class="container">All
-              <input type="radio" class="radio" name= "day_night" value="2" onclick="setFeature(3, 2);" checked="checked">
-              <span class="checkmark"></span>
-          </label>
+          <form>
+            <label class="container">Yes
+                <input type="radio" class="radio" name= "day_night" value="1" onclick="setFeature(3, 1);">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">No
+                <input type="radio" class="radio" name= "day_night" value="0" onclick="setFeature(3, 0);">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">All
+                <input type="radio" class="radio" name= "day_night" value="2" onclick="setFeature(3, 2);" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+          </form>
         </div>
       </div>
       <div class="row" id="videos">
@@ -493,6 +462,7 @@
   <script src="js/agency.min.js"></script>
 
   <!-- Custom scripts for this template -->
+  <script type = "text/javascript" src="data.json"></script>
   <script src="script.js"></script>
 
 </body>
