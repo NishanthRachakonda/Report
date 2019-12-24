@@ -56,7 +56,7 @@ Data = [{
     "filename": "GH012387_63",
     "src": "https://www.youtube.com/embed/Iegg6HY50WQ",
     "location": "Serilingampalle",
-    "road_quality_index": 0,
+    "road_quality_index": 0.9999996960075819,
     "jerk": 0.4799208353855694,
     "speed_limit": 0.0,
     "day_night": 1
