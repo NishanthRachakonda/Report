@@ -173,12 +173,16 @@
             <i class="fa fa-road"></i><span>Road Quality</span>
           </button>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <label class="container">Yes
+            <label class="container">Very Bad
                 <input type="radio" class="radio" name= "road_quality_index" value="1" onclick="setFeature(0, 1);">
                 <span class="checkmark"></span>
             </label>
-            <label class="container">No
+            <label class="container">Good
                 <input type="radio" class="radio" name= "road_quality_index" value="0" onclick="setFeature(0, 0);">
+                <span class="checkmark"></span>
+            </label>
+             <label class="container">Bad
+                <input type="radio" class="radio" name= "road_quality_index" value="0.5" onclick="setFeature(0, 0.5);">
                 <span class="checkmark"></span>
             </label>
             <label class="container">All
@@ -233,11 +237,11 @@
             <i class="fa fa-sun"></i><span>Brightness</span>
           </button>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <label class="container">Yes
+            <label class="container">Day
                 <input type="radio" class="radio" name= "day_night" value="1" onclick="setFeature(3, 1);">
                 <span class="checkmark"></span>
             </label>
-            <label class="container">No
+            <label class="container">Night
                 <input type="radio" class="radio" name= "day_night" value="0" onclick="setFeature(3, 0);">
                 <span class="checkmark"></span>
             </label>
