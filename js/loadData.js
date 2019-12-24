@@ -27,8 +27,8 @@ function outputJSON(){
                             <h4>${data[i].filename}</h4>
                             <p class="text-muted">
                               <i class="fa fa-map-marker"></i> Location: ${data[i].location} <br />
-                              <i class="fa fa-road"></i> Road Quality: ${1-Number(data[i].road_quality_index)} <br />
-                              <i class="fa fa-exclamation-triangle"></i> Jerk: ${Number(data[i].jerk)} <br />
+                              <i class="fa fa-road"></i> Road Quality: ${Math.round*((1-Number(data[i].road_quality_index))*1000)/1000} <br />
+                              <i class="fa fa-exclamation-triangle"></i> Jerk: ${Math.round(1000*data[i].jerk)/1000} <br />
                               <i class="fa fa-bolt"></i> Speed: ${data[i].speed_limit} <br />
                               <i class="fa fa-sun"></i> Brightness: ${data[i].day_night} <br />
                             </p>
