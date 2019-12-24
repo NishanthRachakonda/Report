@@ -17,7 +17,7 @@ function outputJSON(){
   var htmlElements = "";
   var elementAttributes = [{"width": "100px","height": "100px"}];
   for (var i = 0; i < data.length; i++) {
-    if(selection(data[i]))
+    if(selection(data1[i]))
     htmlElements += `<div class="col-md-4 col-sm-6 portfolio-item">
                           <a class="portfolio-link" data-toggle="modal">
                             <iframe width="420" height="315" src="${data[i].src}">
