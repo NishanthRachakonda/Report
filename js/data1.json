@@ -22,7 +22,7 @@ Data1 = [{
     "road_quality_index": 0,
     "location": "Serilingampalle",
     "jerk": 0,
-    "speed_limit": 0,
+    "speed_limit": 1,
     "day_night": 1
   },
   {
