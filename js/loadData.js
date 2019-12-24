@@ -28,7 +28,7 @@ function outputJSON(){
                             <p class="text-muted">
                               <i class="fa fa-map-marker"></i> Location: ${data1[i].location} <br />
                               <i class="fa fa-road"></i> Road Quality: ${1-Number(data1[i].road_quality_index)} <br />
-                              <i class="fa fa-exclamation-triangle"></i> Jerk: ${1-Number(data1[i].jerk)} <br />
+                              <i class="fa fa-exclamation-triangle"></i> Jerk: ${Number(data1[i].jerk)} <br />
                               <i class="fa fa-bolt"></i> Speed: ${data1[i].speed_limit} <br />
                               <i class="fa fa-sun"></i> Brightness: ${data1[i].day_night} <br />
                             </p>
