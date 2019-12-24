@@ -26,11 +26,11 @@ function outputJSON(){
                           <div class="portfolio-caption">
                             <h4>${data[i].filename}</h4>
                             <p class="text-muted">
-                              <i class="fa fa-map-marker"></i> Location: ${data1[i].location} <br />
-                              <i class="fa fa-road"></i> Road Quality: ${1-Number(data1[i].road_quality_index)} <br />
-                              <i class="fa fa-exclamation-triangle"></i> Jerk: ${Number(data1[i].jerk)} <br />
-                              <i class="fa fa-bolt"></i> Speed: ${data1[i].speed_limit} <br />
-                              <i class="fa fa-sun"></i> Brightness: ${data1[i].day_night} <br />
+                              <i class="fa fa-map-marker"></i> Location: ${data[i].location} <br />
+                              <i class="fa fa-road"></i> Road Quality: ${1-Number(data[i].road_quality_index)} <br />
+                              <i class="fa fa-exclamation-triangle"></i> Jerk: ${Number(data[i].jerk)} <br />
+                              <i class="fa fa-bolt"></i> Speed: ${data[i].speed_limit} <br />
+                              <i class="fa fa-sun"></i> Brightness: ${data[i].day_night} <br />
                             </p>
                           </div>
                         </div>\n`;
